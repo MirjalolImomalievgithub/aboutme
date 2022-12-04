@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px thick hsl(234, 100%, 50%);
+  outline-offset: 2px;
+}
+
+.main {
+  width: 100%;
+  max-width: 800px;
+  margin-right: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading {
+  margin-left: -110px;
+}
+.about-me {
+  display: flex;
+}
+.my-img {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.site-button {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.site-button-email {
+  border: 2px solid #900;
+  width: 200px;
+  height: auto;
+  border-radius: 3px;
+  padding: 2px 3px;
+  margin-top: -2px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.site-button-email:hover {
+  background-color: rgb(143, 181, 244);
+}
+
+.site-button-email:active {
+  background-color: rgb(7, 94, 234);
+}
+
+.site-button-number {
+  border: 2px solid #900;
+  width: 200px;
+  height: auto;
+  border-radius: 3px;
+  padding: 2px 3px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-top: -15px;
+}
+
+.site-button-number:hover {
+  background-color: rgb(143, 181, 244);
+}
+
+.site-button-number:active {
+  background-color: rgb(7, 94, 234);
+}
+
+.button-link {
+  text-decoration: none;
+  list-style: none;
+  color: #900;
+}
+
+.bio {
+  margin-left: 20px;
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  color: rgb(223, 64, 64);
+}
+
+.hayot-yoli {
+  margin-left: -10px;
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  color: rgb(245, 80, 80);
+}
+
+.hayot-yoli-text {
+  margin-top: -14px;
+}
+
+.about-me-text {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.742);
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.paragraph-me-text {
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.742);
+  margin-left: 15px;
+  margin-top: -12px;
+}
+
+.mirjalol {
+  color: rgb(40, 124, 235);
+}
+
+.site-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.contacts-text {
+  color: rgb(252, 0, 0);
+}
+.socials {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.socials-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.site-bg {
+  position: absolute;
+  top: 0;
+  width: 800px;
+  height: 1000px;
+  display: block;
+  object-fit: cover;
+  z-index: -1;
+}
